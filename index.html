@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="container">
+            <nav class="header-menu">
+                <a class="page-logo" href="./index.html">WEB<spam class="head-studio">STUDIO</spam></a>
+                <ul class="header-menu-list">
+                    <li class="header-menu-item"><a class="page-nav-link current" href="./index.html">Studio<after></a></li>
+                    <li class="header-menu-item"><a class="page-nav-link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="header-menu-item"><a class="page-nav-link" href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <address>
+                <ul class="page-address">
+                    <li><a class="page-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="page-address-link" href="tel:+1100011111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-main">
+            <div class="container">
+                <h1 class="page-title">Effective Solutions for Your Business</h1>
+                <button class="title-button" type="button" data-modal-open>Order Service</button>
+                    <div class="backdrop is-hidden" id="modalBackdrop" data-modal>
+                        <div class="modal">
+                            <button class="modal-close-btn" data-modal-close>
+                                <a class="close-icons">
+                                <svg width="24" height="24">
+                                    <use href="./images/icons.svg#icon-close">
+                                    </use>
+                                </svg>
+                                </a>
+                            </button>
+                            <div class="modal-box">
+                                <p class="title-modal">Leave your contacts and we will call you back</p>
+                                <form class="modal-form">
+                                    <div class="form-group">
+                                        <label class="modal-text">Name</label>
+                                        <input type="text" id="name" placeholder="">
+                                        <svg class="page-icons" width="18" height="18">
+                                            <use href="./images/icons.svg#icon-person-black-18dp">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="modal-text">Phone</label>
+                                        <input type="tel" id="phone" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="modal-text">Email</label>
+                                        <input type="email" id="email" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="modal-text">Comment</label>
+                                        <textarea id="comment" placeholder="Text input"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="privacy-policy">
+                                        <label class="modal-text">I accept the terms and conditions of the Privacy Policy</label>
+                                    </div>
+                                    <button class="title-button" type="submit">
+                                        Send
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+        <section class="page-bloc">
+            <div class="container">
+                <ul class="page-bloc-list"> 
+                    <li>
+                        <div class="page-bloc-wrapper">
+                            <svg class="page-bloc-icons" width="64" height="64">
+                                <use href="./images/icons.svg#icon-antenna-1">
+                                </use>
+                            </svg>
+                        </div>
+                        <h3 class="title">Strategy</h3>
+                        <p class="text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                    </li>
+                    <li>
+                        <div class="page-bloc-wrapper">
+                            <svg class="page-bloc-icons" width="64" height="64">
+                                <use href="./images/icons.svg#icon-clock-1">
+                                </use>
+                            </svg>
+                        </div>
+                        <h3 class="title">Punctuality</h3>
+                        <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                    </li>
+                    <li>
+                        <div class="page-bloc-wrapper">
+                            <svg class="page-bloc-icons" width="64" height="64">
+                                <use href="./images/icons.svg#icon-diagram-1">
+                                </use>
+                            </svg>
+                        </div>
+                        <h3 class="title">Diligence</h3>
+                        <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+                    </p></li>
+                    <li>
+                        <div class="page-bloc-wrapper">
+                            <svg class="page-bloc-icons" width="64" height="64">
+                                <use href="./images/icons.svg#icon-astronaut-1">
+                                </use>
+                            </svg>
+                        </div>
+                        <h3 class="title">Technologies</h3>
+                        <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page-what">
+            <div class="container">
+                <h2 class="section-title">What Are We Doing</h2>
+                <ul class="page-img">
+                    <li class="page-img-item"><img src="./images/path-to-your-image-desktop.jpg" alt="Desktop project" width="360" height="300"></li>
+                    <li class="page-img-item"><img src="./images/path-to-your-image-mobile.jpg" alt="Mobile project" width="360" height="300"></li>
+                    <li class="page-img-item"><img src="./images/path-to-your-image-other.jpg" alt="Other project" width="360" height="300"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="page-our">
+            <div class="container">
+                <h2 class="section-title">Our Team</h2>
+                <ul class="page-our-img">
+                    <li class="page-our-img-item"><img src="./images/path-to-mark-guerrero-image.jpg" alt="Mark Guerrero" width="264" height="260">
+                    <div class="title-text">
+                    <h3 class="title">Mark Guerrero</h3>
+                    <p class="text">Product Designer</p>
+                    <ul class="page-our-wrapper" style="display: flex; gap: 24px;">
+                        <li class="social-item">
+                            <a class="social-link"
+                            href="https://instagram.com"
+                            title="_blank" rel="noopener norefferrer"
+                            aria-label="Link to instagram.com">
+                            <svg class="page-icons" width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram">
+                                </use>
+                            </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" 
+                            href="https://twitter.com" 
+                            title="_blank" rel="noopener norefferrer"
+                            aria-label="Link to twitter.com">
+                            <svg class="page-icons" width="16" height="16">
+                            <use href="./images/icons.svg#icon-twitter">
+                            </use>
+                            </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" 
+                            href="https://facebook.com" 
+                            title="_blank" rel="noopener norefferrer"
+                            aria-label="Link to facebook.com">
+                            <svg class="page-icons" width="16" height="16">
+                            <use href="./images/icons.svg#icon-facebook">
+                            </use>
+                            </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" 
+                            href="https://linkedin.com" 
+                            title="_blank" rel="noopener norefferrer"
+                            aria-label="Link to linkedin.com">
+                            <svg class="page-icons" width="16" height="16">
+                            <use href="./images/icons.svg#icon-linkedin">
+                            </use>
+                            </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                    </li>
+                    <li class="page-our-img-item"><img src="./images/path-to-tom-ford-image.jpg" alt="Tom Ford" width="264" height="260">
+                    <div class="title-text">
+                    <h3 class="title">Tom Ford</h3>
+                    <p class="text">Frontend Developer</p>
+                    <ul class="page-our-wrapper" style="display: flex; gap: 24px;">
+                        <li class="social-item">
+                            <a class="social-link" href="https://instagram.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to instagram.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-instagram">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://twitter.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to twitter.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-twitter">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://facebook.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to facebook.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-facebook">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://linkedin.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to linkedin.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                    </li>
+                    <li class="page-our-img-item"><img src="./images/path-to-camila-garcia-image.jpg" alt="Camila Garcia" width="264" height="260">
+                    <div class="title-text">
+                    <h3 class="title">Camila Garcia</h3>
+                    <p class="text">Marketing</p>
+                    <ul class="page-our-wrapper" style="display: flex; gap: 24px;">
+                        <li class="social-item">
+                            <a class="social-link" href="https://instagram.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to instagram.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-instagram">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://twitter.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to twitter.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-twitter">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://facebook.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to facebook.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-facebook">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://linkedin.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to linkedin.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                    </li>
+                    <li class="page-our-img-item"><img src="./images/path-to-daniel-wilson-image.jpg" alt="Daniel Wilson" width="264" height="260">
+                    <div class="title-text">
+                    <h3 class="title">Daniel Wilson</h3>
+                    <p class="text">UI Designer</p>
+                    <ul class="page-our-wrapper" style="display: flex; gap: 24px;">
+                        <li class="social-item">
+                            <a class="social-link" href="https://instagram.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to instagram.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-instagram">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://twitter.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to twitter.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-twitter">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://facebook.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to facebook.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-facebook">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://linkedin.com" title="_blank" rel="noopener norefferrer"
+                                aria-label="Link to linkedin.com">
+                                <svg class="page-icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page-customers">
+            <div class="container">
+                <h2 class="section-title">Customers</h2>
+                <ul style="display: flex; gap: 24px;">
+                    <li class="page-customers-wrapper">
+                        <a class="page-customers-link">
+                        <svg class="page-customers-icons" width="104" height="56">
+                            <use href="./images/icons.svg#icon-Logo">
+                            </use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="page-customers-wrapper">
+                        <a class="page-customers-link">
+                        <svg class="page-customers-icons" width="104" height="56">
+                            <use href="./images/icons.svg#icon-Logo-1">
+                            </use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="page-customers-wrapper">
+                        <a class="page-customers-link">
+                        <svg class="page-customers-icons" width="104" height="56">
+                            <use href="./images/icons.svg#icon-Logo-2">
+                            </use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="page-customers-wrapper">
+                        <a class="page-customers-link">
+                            <svg class="page-customers-icons" width="104" height="56">
+                                <use href="./images/icons.svg#icon-Logo-5">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="page-customers-wrapper">
+                        <a class="page-customers-link">
+                        <svg class="page-customers-icons" width="104" height="56">
+                            <use href="./images/icons.svg#icon-Logo-3">
+                            </use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="page-customers-wrapper">
+                        <a class="page-customers-link">
+                        <svg class="page-customers-icons" width="104" height="56">
+                            <use href="./images/icons.svg#icon-Logo-4">
+                            </use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+        <div class="page-footer-logo">
+            <a class="page-logo" href="./index.html">WEB<spam class="footer-studio">STUDIO</spam></a>
+                <p class="text-footer">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        </div>
+        <div class="page-footer-text">
+                <p class="title-footer">Social media</p>
+        <ul class="page-our-wrapper" style="display: flex; gap: 16px;">
+            <li class="social-item">
+                <a class="footer-social-link" href="https://instagram.com" title="_blank" rel="noopener norefferrer"
+                    aria-label="Link to instagram.com">
+                    <svg class="page-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram">
+                        </use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-item">
+                <a class="footer-social-link" href="https://twitter.com" title="_blank" rel="noopener norefferrer"
+                    aria-label="Link to twitter.com">
+                    <svg class="page-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter">
+                        </use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-item">
+                <a class="footer-social-link" href="https://facebook.com" title="_blank" rel="noopener norefferrer"
+                    aria-label="Link to facebook.com">
+                    <svg class="page-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook">
+                        </use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-item">
+                <a class="footer-social-link" href="https://linkedin.com" title="_blank" rel="noopener norefferrer"
+                    aria-label="Link to linkedin.com">
+                    <svg class="page-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin">
+                        </use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        </div>
+        </div>
+        <div class="page-footer-subscribe">
+            <p class="title-footer">Subscribe</p>
+            <form class="form">
+            <input type="email" placeholder="E-mail" name="email">
+            </form>
+            <button class="form-button" type="submit">
+                <p class="text-form-button">Subscribe</p>
+                <svg class="page-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-Frame-3">
+                    </use>
+                </svg>
+            </button>
+        </div>
+    </footer>
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
